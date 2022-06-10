@@ -28,6 +28,12 @@ public class FutureTaskTest {
         new Thread(future3).start();
 
 
+//        Thread thread = new Thread(new FutureTask<String>(() -> {
+//
+//            return "haha";
+//        }));
+
+
         while (true) {
             if (future1.isDone() && future2.isDone() && future3.isDone()) {
                 System.out.println("all finish...");
