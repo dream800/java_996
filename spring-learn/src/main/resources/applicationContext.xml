@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="..." class="...">-->
+        <!-- collaborators and configuration for this bean go here -->
+<!--    </bean>-->
+
+<!--    <bean id="..." class="...">-->
+        <!-- collaborators and configuration for this bean go here -->
+<!--    </bean>-->
+
+    <!-- more bean definitions go here -->
+
+    <bean id="sweetApple" class="pojo.Apple">
+        <property name="title" value="红富士" />
+        <property name="origin" value="欧洲" />
+        <property name="color" value="红色" />
+    </bean>
+
+
+    <bean id="sourApple" class="pojo.Apple">
+        <property name="title" value="红富士" />
+        <property name="origin" value="日本" />
+        <property name="color" value="红色" />
+    </bean>
+
+    <bean id="softApple" class="pojo.Apple">
+        <property name="title" value="金帅" />
+        <property name="origin" value="中国" />
+        <property name="color" value="红色" />
+    </bean>
+
+
+</beans>
